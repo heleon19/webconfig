@@ -1,0 +1,25 @@
+{
+  "name": "web configurator",
+  "keywords": "web configurator wifi",
+  "description": "ESP8266 Web configurator to store and read configuration from SPIFFS. Handles WiFi connections, and allows to include custom parameters such as Mqtt, device config...",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/heleon19/webconfig.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Reto Jenni",
+      "email": "rjenni@bluewin.ch",
+      "maintainer": true
+    }
+  ],
+  "dependencies":
+  {
+    "frameworks": "arduino"
+  },
+  "version": "0.0.1",
+  "frameworks": "arduino",
+  "platforms": "espressif8266*"
+}
